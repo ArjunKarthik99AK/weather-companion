@@ -58,7 +58,7 @@ const WeatherCard = ({ data, unit }: WeatherCardProps) => {
         </div>
         <div className="detail-item">
           <span className="detail-label">Wind</span>
-          <span className="detail-value">{data.main.wind ? data.main.wind : data.wind.speed} {windUnit}</span>
+          <span className="detail-value">{data.wind.speed} {windUnit}</span>
         </div>
         <div className="detail-item">
           <span className="detail-label">Pressure</span>
